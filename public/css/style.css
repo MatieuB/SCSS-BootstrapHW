@@ -1,2 +1,37 @@
-nav {
-  color: green; }
+.navbar-brand {
+  color: white; }
+  .navbar-brand:hover {
+    color: yellow; }
+    .navbar-brand:hover:active {
+      background-color: #cb9918;
+      color: #0e9dad; }
+
+#test .container-fluid {
+  background-color: #070707; }
+  #test .container-fluid ul li a {
+    color: white; }
+    #test .container-fluid ul li a:hover {
+      color: yellow;
+      background-color: #070707;
+      font-weight: bolder; }
+      #test .container-fluid ul li a:hover:active {
+        background-color: #cb9918;
+        color: #0e9dad; }
+
+.panel-heading {
+  background-color: #09802e;
+  color: white; }
+
+.bottom {
+  background-color: #009A6E; }
+
+.menu {
+  background-color: #09802e; }
+
+.list-group-item {
+  color: gray; }
+  .list-group-item:hover {
+    color: purple; }
+
+* {
+  font-family: "indie flower", cursive; }

@@ -1,0 +1,47 @@
+$navBarColor: #070707;
+$greenPanel: #009A6E;
+$darkGreenPanel: rgb(9, 128, 46);
+
+.navbar-brand {
+  color: white;
+  &:hover{
+    color: yellow;
+    &:active{
+      background-color: rgb(203, 153, 24);
+      color: rgb(14, 157, 173);
+    }
+  }
+}
+
+#test .container-fluid{
+  background-color: $navBarColor;
+  ul li a{
+    color: white;
+    &:hover{
+      color:yellow;
+      background-color: $navBarColor;
+      font-weight: bolder;
+      &:active{
+        background-color: rgb(203, 153, 24);
+        color: rgb(14, 157, 173);
+      }
+    }
+  }
+}
+.panel-heading {
+  background-color: $darkGreenPanel;
+  color: white;
+}
+
+.bottom {
+  background-color: $greenPanel;
+}
+.menu {
+  background-color: $darkGreenPanel;
+}
+.list-group-item {
+  color: gray;
+  &:hover {
+    color: purple;
+    }
+}
